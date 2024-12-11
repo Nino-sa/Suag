@@ -1,3 +1,3 @@
 function Voltar() {
-  window.location.href = "caminho/arquivo/inicio";
+  window.location.href = "../../home/index.html";
 }

@@ -1,16 +1,16 @@
 <?php
-    $servidor = 'localhost';
-    $usuario = 'root';
-    $senha = "";
-    $banco = "suag_br";
+$servidor = "localhost"; // Nome do servidor
 
-    $conexão = new mysql($servidor, $usuario, $senha, $banco);
+$usuario = "root"; // Nome do usuário
 
-    if($conexao->connect_error){
-        die("Conexão Falhou: " . $conexao->connect_error);
+$senha = ""; // Senha de entrada
 
-    }
-    echo "Conexão bem-sucedida <hr>";
+$banco = "suag_br"; // Nome do banco que será acessado para realizar as operações
 
-
-?>
+try {
+    $conexao = new PDO("mysql:host=$servidor;dbname=$banco", $usuario, $senha);
+    // Configura o modo de erro do PD6O para exceções
+    $conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo "Conexão falhou: " . $e->getMessage();
+}

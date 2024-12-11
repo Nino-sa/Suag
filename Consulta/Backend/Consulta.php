@@ -14,11 +14,14 @@ try {
 
     if ($itens) {
         echo ("<p id='r1'> COD:" . $itens['id'] . "</p>");
-        echo ("<p id='r2'> NOME:" . $itens['item'] . "</p>");
-        echo ("<p id='r3'> DESC:" . $itens['conteud'] . "</p>");
+        echo ("<p id='r2'> NOME:" . $itens['nome'] . "</p>");
+        echo ("<p id='r3'> PREÇO:" . $itens['preco'] . "</p>");
         echo ("<p id='r4'> QUANT:" . $itens['quant'] . "</p>");
+        echo ("<p id='r5'> DESCR:" . $itens['descr'] . "</p>");
+        echo ("<p id='r6'> DATA RECEBIMENTO:" . $itens['dataR'] . "</p>");
+        echo ("<p id='r7'> DATA VALIDADE:" . $itens['dataV'] . "</p>");
     } else {
-        echo ("<p id='r5'> Nenhum item encontrado <p>");
+        echo ("<p id='r8'> Nenhum item encontrado <p>");
     }
 
 } catch (PDOException $e) {
