@@ -1,0 +1,48 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menuNav img{
+    margin-left: 20px;
+}
+
+
+.menuNav {
+    list-style: none;
+    padding: 0;
+    background-color: #2b7e1f;
+  
+
+}
+
+.menuNav li {
+    display: inline;
+}
+
+.menuNav li a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.menuNav li a:hover {
+    background-color: #469938;
+
+
+}
+
+/* colocando o copyrigth para direita*/
+
+.cpD{
+    text-align: right;
+
+}
+
+.text{
+    text-align: center;
+}

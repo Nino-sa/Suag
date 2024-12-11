@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUAG - Consulta</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header class="menu">
+      <div id="faixa"></div>
+      <h2 id="titulo">SUAG - CONSULTA</h2>
+    </header>
+    <div class="conteudo">
+      <span>
+        <form action="../Backend/Consulta.php" method="get">
+          <label id="texto" for="cod">
+            Insira o código do item abaixo para buscar:
+          </label>
+          <span id="codspan">
+            <input type="number" id="cod" name="cod" required />
+          </span>
+          
+          <button type="submit">Buscar</button>
+        </form>
+      </span>
+      <button id="Voltar" onclick="Voltar()">Voltar ao inicio</button>
+    </div>
+  </body>
+</html>

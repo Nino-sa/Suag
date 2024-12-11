@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(210, 253, 210);
+}
+
+#titulo {
+  border-style: outset;
+  border-color: #fff;
+  color: black;
+  background-color: #ffffff;
+  padding: 2px;
+  margin: 10px 0;
+  margin-left: 31.5vw;
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  width: 40%;
+}
+#faixa {
+  background-color: rgb(44, 150, 44);
+  padding: 4vh;
+}
+
+.conteudo {
+  display: block;
+  margin-left: 38.5vw;
+}
+
+#texto {
+  border-style: outset;
+  border-color: #fff;
+  color: black;
+  background-color: #ffffff;
+  padding: 2px;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  width: 40%;
+}
+
+#codspan {
+  margin-left: 8.5vw;
+}
+
+#cod {
+  border: 1px solid black;
+  color: black;
+}
+
+#cod:focus {
+  background-color: rgb(44, 150, 44);
+}
+
+#Voltar {
+  margin-top: 10px;
+  margin-left: 10.5vw;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
