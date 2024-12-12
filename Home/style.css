@@ -1,0 +1,42 @@
+.cadastro {
+  font-size: 40px;
+}
+
+.consulta {
+  margin-left: 27%;
+  margin-right: 27%;
+  font-size: 40px;
+}
+
+a {
+  border: 4px solid black;
+  padding: 5px;
+  background-color: rgb(44, 150, 44);
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+h1 {
+  margin-left: 47%;
+  margin-top: 10%;
+}
+
+div {
+  width: 100%;
+  border-bottom: 5px solid black;
+  background-color: rgb(44, 150, 44);
+  line-height: 400%;
+  color: rgb(44, 150, 44);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(210, 253, 210);
+}
